@@ -1,0 +1,74 @@
+.hero {
+    padding: 44px 0 20px
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 28px;
+    align-items: center;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 16px
+}
+
+.hero-card {
+    background: linear-gradient(180deg, #fff, #fff);
+    padding: 28px;
+    border-radius: 18px;
+    box-shadow: var(--shadow-sm)
+}
+
+.hero-title {
+    font-size: 34px;
+    line-height: 1.03;
+    margin: 0 0 8px
+}
+
+.hero-sub {
+    color: var(--muted);
+    margin: 0 0 18px
+}
+
+.search-row {
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.input {
+    flex: 1;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px solid #eee;
+    outline: none;
+    transition: box-shadow .18s
+}
+
+.input:focus {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06)
+}
+
+.btn-primary {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform .18s
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px)
+}
+
+@media(max-width:720px) {
+    .hero-grid {
+        grid-template-columns: 1fr
+    }
+
+    .hero-title {
+        font-size: 24px
+    }
+}
