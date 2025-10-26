@@ -1,0 +1,2 @@
+import React from "react";
+export default function CardItem({ item }) { return <article className="card fade-in"><div className="card-media" style={{ backgroundImage: `url(${item.img})`, backgroundSize: "cover", backgroundPosition: "center" }} aria-hidden></div><h3>{item.title}</h3><p>{item.desc}</p><div className="card-actions"><div style={{ color: "var(--muted)", fontSize: 13 }}>₹129</div><button className="card-btn">Order</button></div></article> }
