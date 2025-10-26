@@ -1,0 +1,2 @@
+import React from "react";
+export default function Loader() { return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: 48 }}><svg width="44" height="44" viewBox="0 0 44 44" aria-hidden><circle cx="22" cy="22" r="18" stroke="var(--accent)" strokeWidth="4" fill="none" strokeLinecap="round" strokeDasharray="80" strokeDashoffset="60"><animate attributeName="stroke-dashoffset" from="60" to="-220" dur="1.1s" repeatCount="indefinite" /></circle></svg></div> }
