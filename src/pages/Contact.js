@@ -1,0 +1,3 @@
+import React from "react";
+import "../styles/global.css";
+export default function Contact() { return <section className="section" style={{ paddingTop: 34, paddingBottom: 34 }}><div className="container"><h2 className="section-title">Contact</h2><form style={{ maxWidth: 720, display: "flex", flexDirection: "column", gap: 12 }}><input className="input" placeholder="Your name" required /><input className="input" type="email" placeholder="Email" required /><textarea className="input" placeholder="Message" rows="6" style={{ resize: "vertical" }}></textarea><div style={{ display: "flex", gap: 10 }}><button className="btn-primary" type="submit">Send</button><button className="cta" type="reset">Reset</button></div></form></div></section> }
